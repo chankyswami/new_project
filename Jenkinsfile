@@ -2,6 +2,7 @@ pipeline {
     agent {
         docker {
             image 'docker.io/httpd:latest'
+            echo "Image selected"
         }
     }
     stages {

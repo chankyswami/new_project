@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'docker.io/httpd:latest'
+            image 'docker pull httpd:latest'
             echo "Image selected"
         }
     }
